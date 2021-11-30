@@ -1,0 +1,48 @@
+/* welcome text */
+* {
+  box-sizing: border-box;
+  margin: 0ch;
+  padding: 0ch;
+}
+
+.welcome {
+  height: 30vh;
+  padding: 70px;
+  text-align: center;
+  font-size: 60px;
+  color: antiquewhite;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 3s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Navigation bar */
+
+.navbar {
+  overflow: hidden;
+  top: 0ch;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: antiquewhite;
+  text-align: center;
+  padding: 20px 26px;
+  text-decoration: none;
+}
